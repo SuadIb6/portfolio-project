@@ -1,0 +1,13 @@
+body {
+  background: #eef4ed;
+}
+h1 {
+  color: #e8751a;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 96px;
+}
+p {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
