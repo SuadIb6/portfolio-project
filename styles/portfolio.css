@@ -60,6 +60,9 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+img {
+  border: 5px solid #4169e1;
+}
 
 .btn-branding {
   background: var(--primary-color);
@@ -115,6 +118,16 @@ p {
 }
 .about-section h3 {
   font-size: 30px;
+}
+.content {
+  padding: 90px 20px;
+}
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content p {
+  margin: 10px;
 }
 .email-link {
   display: flex;
