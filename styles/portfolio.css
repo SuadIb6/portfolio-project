@@ -81,10 +81,10 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 56px;
   }
   h2 {
     font-size: 44px;
@@ -97,16 +97,25 @@ p {
     text-align: center;
   }
 }
-.about-paragraphs p {
+.about-section p {
   margin: 10px;
 }
 
-.about-paragraphs {
+.about-section p {
   display: flex;
   justify-content: space-evenly;
   margin: 30px 0;
 }
-
+.about-section {
+  padding: 90px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h3 {
+  font-size: 30px;
+}
 .email-link {
   display: flex;
   justify-content: center;
