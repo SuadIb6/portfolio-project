@@ -37,7 +37,7 @@ p {
 .hero {
   background: #4169e1;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -121,9 +121,7 @@ img {
   h2 {
     font-size: 44px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+
   .hero p {
     font-size: 36px;
     font-weight: bold;
