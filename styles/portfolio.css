@@ -72,7 +72,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-right: 25px;
 }
 nav ul {
@@ -124,9 +124,19 @@ img {
   .hero {
     padding: 80px 20px;
   }
+  .hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 30px;
+    color: var(--accent-color);
+  }
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .container {
+    max-width: 720px;
   }
 }
 .about-section p {
@@ -172,4 +182,28 @@ img {
 
 a:visited {
   color: orange;
+}
+footer .contact-box {
+  background: #4169e1;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+h5 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+  color: var(--secondary-color);
+}
+footer .email-link {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-size: 24px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
