@@ -2,91 +2,90 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Suad Ibrahim | Front-End Developer</title>
+    <meta name="description" content="Suad is a front-end engineer based in London." />
 
-    <link rel="stylesheet" href="styles/portfolio.css">
-
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@400;700&family=Pacifico&display=swap"
+        rel="stylesheet" />
+
+
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/10e6ead41c.js" crossorigin="anonymous"></script>
 
-    <meta name="description" content="Find out about Suad Ibrahim an aspiring front-end engineer based in London.">
-    <title>About</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/portfolio.css" />
 </head>
 
+
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top d-flex justify-content-between">
-            <h4>Suad Ibrahim</h4>
-            <ul>
-                <li>
-                    <a href="/" title="homepage"> Home</a>
-                </li>
-                <li class="active">
-                    <a href="/about.html" title="About Suad"> About</a>
-                </li>
-                <li>
-                    <a href="/work.html" title="Suad's projects"> Work</a>
-                </li>
-                <li>
-                    <a href="/contact.html" title="Contact Suad"> Contact</a>
-                </li>
-            </ul>
+    <header class="container py-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="/" title="Suad Ibrahim">Suad Ibrahim</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/" title="Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/about.html" title="About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/work.html" title="Work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html" title="Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </div>
-    <div class="about-section container">
+    </header>
 
+    <main class="about-section container my-5 pt-5">
+        <h1 class="text-center mb-3">About Me</h1>
+        <h3 class="text-center mb-5 text-accent">Aspiring front-end developer from London, England</h3>
 
-        <h1 class="text-center mb-4">About me</h1>
-        <h3 class="text-center mb-4">Aspiring front-end developer from London,England</h3>
-        <div class="row">
-            <div class="col-md-6">
-                <p>I'm Suad, a primary school teacher who is now beginning a new journey into coding. I have been
-                    teaching
-                    for
-                    11 years, teaching children key skills that will support them in their learning journey and the
-                    wider
-                    world.
-                    It has been a rewarding and fufilling experience seeing students discover their passion, experience
-                    success
-                    in learning, or come to understand the importance of perseverance.
-                    <br />
-                    <br />
-                    Teaching has allowed me to develop my creativity and discover my own passions. This is where coding
-                    comes
-                    into place. I have always been interested in technology and how it works. In my teaching career
-                    incorporating technology has been an important part especially as it has become part of our daily
-                    lives.
-                    Coding helps us to understand technology.
-                </p><a href="" class="btn btn-branding outline">See my projects</a>
-            </div>
-            <div class="col-md-6">
+        <div class="row gy-4">
+            <section class="col-md-6">
                 <p>
-                    Our world is full of technology, we use numerous software and apps every day. When you know how to
-                    build
-                    these things and understand their mechanism, you will feel more confident.
-                    You don't need to be an expert to be self-sufficient, by knowing just a little can make a huge
-                    difference to
-                    your life. Learning to code can help your life in a way you can never imagine.
-                    <br />
-                    <br />
-                    My new aspiration is to become a front-end developer.As a front-end developer, I have the
-                    opportunity to
-                    make a real difference in the world. I can use my skills to build websites that educate, inform and
-                    entertain. I can also use my skills to build websites that make a difference in people’s lives.
+                    I'm Suad, a primary school teacher embarking on a new journey into coding. With 11 years of teaching
+                    experience, I have nurtured creativity, perseverance, and passion in young learners.
+                    <br /><br />
+                    Teaching has ignited my creativity and curiosity about technology. Integrating tech into education
+                    has shown me how coding can empower understanding in our digital world.
                 </p>
-            </div>
+                <a href="/work.html" class="btn btn-branding outline mt-3" title="See my projects">See my projects</a>
+            </section>
+
+            <section class="col-md-6">
+                <p>
+                    Our world is full of technology, and understanding how software and apps work can boost your
+                    confidence. You don't have to be an expert — even a little knowledge can make a huge difference in
+                    your life.
+                    <br /><br />
+                    My aspiration is to become a front-end developer, building websites that educate, inform, entertain,
+                    and
+                    make a real difference.
+                </p>
+            </section>
         </div>
-    </div>
+    </main>
+
     <footer>
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
             <div>
@@ -97,31 +96,37 @@
                 <a href="/contact.html" class="btn btn-branding mt-3"> Contact me </a>
             </div>
         </div>
+
         <div class="d-flex justify-content-center mb-5">
             <a href="mailto:suadibrahim1020@gmail.com" class="email-link" title="Email Suad">
                 suadibrahim1020@gmail.com
             </a>
         </div>
+
         <div class="social-links d-flex justify-content-center">
-            <a href="https://www.github.com/suadib6" target="_blank" title="Github profile">
+            <a href="https://www.github.com/suadib6" target="_blank" rel="noopener" title="GitHub profile">
                 <i class="fab fa-github" aria-hidden="true"></i>
             </a>
-            <a href="https://www.instagram.com/suadib6" target="_blank" title="Instagram profile">
+            <a href="https://www.instagram.com/suadib6" target="_blank" rel="noopener" title="Instagram profile">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
             </a>
-            <a href="https://www.twitter.com/suadib6" target="_blank" title="twitter profile">
+            <a href="https://www.twitter.com/suadib6" target="_blank" rel="noopener" title="Twitter profile">
                 <i class="fab fa-twitter" aria-hidden="true"></i>
             </a>
         </div>
+
         <p class="text-center mt-5">
             ✌️ This website was coded by Suad Ibrahim, and is
-            <a href="https://github.com/SuadIb6/portfolio-project" target="_blank">
+            <a href="https://github.com/SuadIb6/portfolio-project" target="_blank" rel="noopener">
                 open-sourced
             </a>
         </p>
     </footer>
 
-
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
